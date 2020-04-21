@@ -48,6 +48,9 @@ connection_establishment()
 while(True):
     try:
         msg, addr = s.recvfrom(bufflen)
+        f = open("./output.txt","a+")
+        f.write("{}\n".format(msg.decode('utf-8')[:8]))
+        f.close()
         print("Received data from client: {}".format(msg))
     except:
         print("could not receive message from client")
@@ -68,3 +71,5 @@ while(True):
             addr = None
         #sleep 2 second to prevent rapid sending of packages
         time.sleep(2)
+
+f.close()
