@@ -1,6 +1,4 @@
 ##################################################################################
-# Authors: Blake McLachlin, Kevin Baffo, Soloman Fayemi, Mahfooz Azeez
-# Last Date Revised: December 3rd, 2019
 # Program Name: server.py
 # Program purpose: UDP server with connection establishment and probability "p"
 # of losing packets

@@ -1,6 +1,4 @@
 #############################################################################
-# Authors: Blake McLachlin, Kevin Baffo, Soloman Fayemi, Mahfooz Azeez
-# Last Date Revised: December 3rd, 2019
 # Program Name: client.py
 # Program purpose: UDP client with connection establishment and timeout for
 # sending packets. Has 2 threads running. 1 thread is for sending and 1 
