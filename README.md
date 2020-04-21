@@ -5,6 +5,7 @@ In this project, I developed client and server programs that implement the alter
 1) Connection Establishment
 2) Data transfer using alternating bit protocol
 3) Error recovery
+4) Writing message to an output file
 
 The program sends encoded text eight characters at a time along with a sequence number representing request or acknowledgment. 
 
