@@ -71,5 +71,3 @@ while(True):
             addr = None
         #sleep 2 second to prevent rapid sending of packages
         time.sleep(2)
-
-f.close()
